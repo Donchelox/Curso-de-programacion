@@ -1,33 +1,28 @@
-
-
-
-
+// Declaramos variables sin valor
 var peso;
-var pesoEnMarte; //CamelCase
+var pesoEnMarte;
+// Declaramos variables sin valor
+
+// Ventana emergente con mensaje
 alert("¿Quieres saber cuál es tu peso en Marte?")
-peso = prompt("Cual es tu peso en Kg?", "70")
+// Ventana emergente con mensaje
+
+// Obtenemos el valor del peso con una ventana emergente
+peso = prompt("¿Cuál es tu peso en KG?", "70");
+// Obtenemos el valor del peso con una ventana emergente
+
+// Convertimos peso a número con parseInt() pero también se puede hacer con Number()
 peso = parseInt(peso);
+// Convertimos peso a número con parseInt() pero también se puede hacer con Number()
 
-pesoEnMarte = (peso/ 9.81) 3.711;
+// Convertimos el peso en peso en Marte con la siguiente ecuación
+pesoEnMarte = (peso / 9.81) * 3.711;
+// Convertimos el peso en peso en Marte con la siguiente ecuación
 
-alert("Tu peso en marte es:"pesoEnMarte" + " kg)	
+// Imprimimos el peso en Marte
+alert("Tu peso en marte es: " + pesoEnMarte);
+// Imprimimos el peso en Marte
 
-alert(peso + " kg")
-
-
-
-
-
-
-
-
-
-
-	//Alert:función
-	//() : Parametros de la función
-	//"" : Cadenas de texto
-	//var nombre = "Marcelo";
-	//var apellido = "Vasquez";
-	//var edad = "25";
-
-//alert(nombre + " " + apellido + "\n " +edad + " años")
+// Imprimimos valor dado por el usuario
+// alert(peso + 10);
+// Imprimimos valor dado por el usuario
